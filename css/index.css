@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+@font-face {
+    font-family: 'name';
+    src: url(../Fonts/GreatVibes-Regular.ttf);
+}
+
+#header {
+    width: 100%;
+    background-image: linear-gradient(#382933, #f6f6f6);
+}
+
+#header h1 {
+    padding: 1.5%;
+	text-align: center;
+    font-family: 'name', 'Times New Roman', serif;
+    font-size: 4.5vw;
+    letter-spacing: 1.1vw;
+    color: #44000d;
+    /*text-shadow: 1px 0px 1px #260c1a;*/
+}
+
+#sidebar {
+    float: left;
+    margin: 1% 1% 0% 3%;
+    width: 15%;
+}
+
+#sidebar, #content {
+    display: inline-block;
+}
+
+#sidebar a, #sidebar span {
+    display: block;
+    width: 98%;
+    padding: 1% 1% 20% 2%;
+	text-decoration: none;
+    transition: 0.6s linear;
+    font-family: 'Cormorant Unicase', 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 2.5vw;
+    letter-spacing: 0.28vw;
+	color: #222831;
+    text-shadow: 0px 0px 1px #222831;
+    cursor: url('/Icons/pencil2.png'), pointer;
+}
+
+#sidebar a:hover, #sidebar span:hover {
+	color: #bb596b;
+    text-shadow: 1px 1px 1px black;
+}
+
+#sidebar span {
+    padding-bottom: 10%;
+}
+
+#sidebar .menu:hover .dropDown {
+    display: block;
+}
+
+.dropDown {
+    display: none;
+    width: 100%;
+    margin-left: 3%;
+}
+
+#sidebar .dropDown a {
+    display: inline-block;
+    padding: 0;
+    margin-right: 3%;
+    width: 20%;
+}
+
+.dropDown img {
+    width: 100%;
+}
+
+#content {
+	margin: 1% 1% 1% 10%;
+	padding: 0%;
+    width: 60%;
+    min-height: 80%;
+}
+
+#content img {
+    width: 70%;
+    height: auto;
+    box-shadow: 0px 0px 10px #e9e9e7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
