@@ -7,6 +7,11 @@ body {
     background-color: #f6f6f6;
 }
 
+@font-face {
+  font-family: 'vibes';
+  src: url(/Fonts/GreatVibes-Regular.ttf);
+}
+
 .home {
 	width: 5%;
 	height: 5%;
@@ -21,9 +26,9 @@ body {
 .home a {
 	text-decoration: none;
 	color: red;
-	font-size: 2.9vw;
+	font-size: 2.1vw;
     text-align: center;
-	font-family: Montez, cursive;
+	font-family: 'vibes', cursive;
 }
 
 .gallery {
